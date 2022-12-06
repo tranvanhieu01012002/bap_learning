@@ -180,6 +180,18 @@ Result
 sudo systemctl reload nginx
 ```
 
+<p>Note: add domain to host in /etc</p>
+
+```
+sudo vim /etc/hosts
+```
+Add your domain here
+
+```
+127.0.0.1       bap-dev.com
+::1		        bap-dev.com
+
+```
 
 ### Run PHP script ###
 
