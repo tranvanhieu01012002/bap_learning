@@ -304,4 +304,9 @@ Result
     ![alt text](assets/Screenshot%20from%202022-12-06%2013-39-30.png)
 
 
-    
+### Reference
+[link](https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-22-04)
+
+[link](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04)
+
+[link](https://viblo.asia/p/cai-dat-va-cau-hinh-subdomain-tren-nginx-centos-7-vyDZOxjklwj)
