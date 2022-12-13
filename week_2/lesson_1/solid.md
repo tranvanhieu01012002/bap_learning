@@ -3,9 +3,9 @@
 
 2. Tìm hiểu
 
-        a. S -Single-responsibility principle
+	a. S -Single-responsibility principle
 
-                Một lớp chỉ nên làm một nhiệm vụ duy nhất. Lỡ có việc gì cần sửa thì chỉ cần lôi class đó ra sửa, mà không cần phải lo nó đụng chạm đến những phần khác.
+		Một lớp chỉ nên làm một nhiệm vụ duy nhất. Lỡ có việc gì cần sửa thì chỉ cần lôi class đó ra sửa, mà không cần phải lo nó đụng chạm đến những phần khác.
 	
 	b. O -Open - closed principle
 
