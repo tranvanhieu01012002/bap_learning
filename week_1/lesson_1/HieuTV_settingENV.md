@@ -129,13 +129,16 @@ Copy this to file
 ```
 server {
     listen 80;
-    server_name your_domain www.your_domain;
-    root /var/www/your_domain;
-
-    index index.html index.htm index.php;
+    server_name g-learning.vn www.g-learning.vni;
+    root /var/www/g-learning.vn/public;
+     proxy_busy_buffers_size   512k;
+ 	proxy_buffers   4 512k;
+ 	proxy_buffer_size   256k;
+   
+    index index.php  index.html index.htm ;
 
     location / {
-        try_files $uri $uri/ =404;
+        try_files $uri $uri/ /index.php?$query_string;
     }
 
     location ~ \.php$ {
@@ -147,7 +150,10 @@ server {
         deny all;
     }
 
+    
+
 }
+
 
 ```
 
